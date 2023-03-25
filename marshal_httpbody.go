@@ -2,7 +2,7 @@ package gateway
 
 import (
 	"github.com/gogo/googleapis/google/api"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"github.com/aromanovich/grpc-gateway/runtime"
 )
 
 // HTTPBodyMarshaler is a Marshaler which supports marshaling of a

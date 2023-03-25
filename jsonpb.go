@@ -1,5 +1,5 @@
 // Package gateway contains marshaling code extracted from
-// github.com/grpc-ecosystem/grpc-gateway/runtime and altered
+// github.com/aromanovich/grpc-gateway/runtime and altered
 // to depend on gogo versions of the proto and jsonpb packages.
 package gateway
 
@@ -12,7 +12,7 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"github.com/aromanovich/grpc-gateway/runtime"
 )
 
 // JSONPb is a runtime.Marshaler which marshals/unmarshals into/from

@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"github.com/aromanovich/grpc-gateway/runtime"
 )
 
 // Proto is a runtime.Marshaller which marshals/unmarshals into/from serialize
